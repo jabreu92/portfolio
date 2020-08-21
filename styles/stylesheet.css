@@ -2,10 +2,12 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
 }
+
+/*****Website Layout structure Begins*****/
+
 
 /* Style the header */
 .header {
@@ -45,5 +47,40 @@ body {
   display: inline-block;
   width: 33.333%;
 }
+
+/* Style the footer */
+.footer {
+  background-color: #4d7ba3;
+  padding: 10px;
+  text-align: center;
+}
+
+/*****Website Layout structure Ends*****/
+
+
+/* Extra CSS classes aimed for Column Left **/
+
+/* Card for the Contact Info */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: rgba(52, 162, 235, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 55%;
+}
+
+.card-image {
+  border-radius: 5px 5px 0 0;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+
 
 </style>
