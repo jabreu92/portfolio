@@ -1,14 +1,49 @@
-<style>* {
-	box-sizing: border-box;
+<style>
+* {
+  box-sizing: border-box;
 }
 
 body {
-	color: red;
+  margin: 0;
 }
 
-img {
-	border: 2px dashed orange;
-	width: 25%;
+/* Style the header */
+.header {
+  background-color: #4d7ba3;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Create three equal columns that floats next to each other */
+.column-left {
+  float: left;
+  width: 33.333%;
+}
+
+.column-right {
+  float: right;
+  width: 33.333%;
+}
+
+.column-center {
+  display: inline-block;
+  width: 33.333%;
 }
 
 </style>
