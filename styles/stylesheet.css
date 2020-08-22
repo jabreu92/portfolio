@@ -8,12 +8,6 @@ body {
 	font-family: Helvetica, sans-serif;
 }
 
-
-/*****Website Layout structure Begins*****/
-
-
-/* Style the header */
-
 .header {
 	background-color: #4d7ba3;
 	padding: 10px;
@@ -21,16 +15,10 @@ body {
 	color: #FFFFFF
 }
 
-
-/* Style the top navigation bar */
-
 .topnav {
 	overflow: hidden;
 	background-color: #333;
 }
-
-
-/* Style the topnav links */
 
 .topnav a {
 	float: left;
@@ -40,9 +28,6 @@ body {
 	padding: 14px 16px;
 	text-decoration: none;
 }
-
-
-/* Create three equal columns that floats next to each other */
 
 .column-left {
 	float: left;
@@ -59,23 +44,11 @@ body {
 	width: 50%;
 }
 
-
-/* Style the footer */
-
 .footer {
 	background-color: #4d7ba3;
 	padding: 10px;
 	text-align: center;
 }
-
-
-/*****Website Layout structure Ends*****/
-
-
-/* Extra CSS classes aimed for Column Left **/
-
-
-/* Card for the Contact Info */
 
 .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -95,36 +68,58 @@ body {
 
 .container {
 	width: 100%;
-	/* Full width */
+	border-radius: 5px;
+	background-color: #f2f2f2;
 	padding: 2px 16px;
+}
+
+input[type=text],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
 }
 
 .container-work-experience {
 	width: 100%;
-	/* Full width */
 	padding: 2px 16px;
 }
 
-
-/* Container for skill bars */
-
 .container-skills-bar {
 	width: 100%;
-	/* Full width */
 	padding: 2px 16px;
 	background-color: #ddd;
-	/* Grey background */
 }
 
 .skills {
 	text-align: right;
-	/* Right-align text */
 	padding-top: 10px;
-	/* Add top padding */
 	padding-bottom: 10px;
-	/* Add bottom padding */
 	color: white;
-	/* White text color */
+}
+
+.languages {
+	width: 100%;
+	background-color: #4CAF50;
 }
 
 .java {
@@ -132,39 +127,38 @@ body {
 	background-color: #4CAF50;
 }
 
-
-/* Green */
-
-.languages {
-	width: 100%;
-	background-color: #4CAF50;
-}
-
-
-/*  Green */
-
 .c-sharp {
 	width: 80%;
 	background-color: #2196F3;
 }
-
-
-/* Blue */
 
 .html-css {
 	width: 45%;
 	background-color: #f44336;
 }
 
-
-/* Red */
-
 .javascript {
 	width: 10%;
 	background-color: #808080;
 }
 
-
-/* Dark Grey */
+.about-me {
+	background-color: lightblue;
+	color: black;
+	border-style: groove;
+	box-sizing: border-box;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: 25px;
+	margin-left: 25px;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	border: 15px solid green;
+	outline-style: double;
+	font-family: Helvetica, sans-serif;
+	opacity: 1.0;
+}
 
 </style>
