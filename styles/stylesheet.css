@@ -161,4 +161,9 @@ input[type=submit]:hover {
 	opacity: 1.0;
 }
 
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
 </style>
