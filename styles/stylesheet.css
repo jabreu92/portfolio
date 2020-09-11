@@ -1,4 +1,4 @@
-<style>* {
+* {
 	box-sizing: border-box;
 }
 
@@ -15,34 +15,51 @@ body {
 	color: #FFFFFF
 }
 
-.topnav {
-	overflow: hidden;
-	background-color: #333;
+.google-font-paragraph {
+
+	font-family: 'Tangerine', serif;
+         font-size: 18px;
+}
+nav {
+	text-align: center
+
 }
 
-.topnav a {
-	float: left;
-	display: block;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 30px;
+	width: 100%;
+	background-color: grey;
+}
+
+nav li,
+nav li a {
+	display: inline;
 	text-decoration: none;
+	font-size: 25px;
+	color: #FFFFFF;
+	padding-left: 25px;
 }
 
-.column-left {
-	float: left;
-	width: 25%;
+nav li a:hover,
+nav li a:active {
+	color: blue;
 }
 
-.column-right {
-	float: right;
-	width: 25%;
+
+.flex-container{
+  height: 100%;
+  display: flex;
+  align-items: stretch;
 }
 
-.column-center {
-	display: inline-block;
-	width: 50%;
+.box {
+	border-radius: 25px;
+border: 2px solid grey;
+background: #fafafa;
 }
+
 
 .footer {
 	background-color: #4d7ba3;
@@ -160,5 +177,7 @@ input[type=submit]:hover {
 	font-family: Helvetica, sans-serif;
 	opacity: 1.0;
 }
-
-</style>
+.fa-camera{
+  color: magenta;
+}
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Raleway:wght@100&display=swap');

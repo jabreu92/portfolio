@@ -7,6 +7,9 @@
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <script src="https://kit.fontawesome.com/3a1ca26176.js" crossorigin="anonymous"></script>
    </head>
    <body>
       <header>
@@ -17,14 +20,16 @@
             </p>
             <a href="https://www.linkedin.com/in/jose-abreu" target="_blank"> LinkedIn: www.linkedin.com/in/jose-abreu</a>
          </div>
-         <div class="topnav">
-            <a href="./index.html">Home</a>
-            <a href="./my-projects.html">My Projects</a>
-         </div>
+         <nav>
+            <ul>
+               <li><a href="./index.html">Home</a></li>
+               <li><a href="./my-projects.html">My Projects</a></li>
+            </ul>
+         </nav>
       </header>
       <main>
-         <div class="w3-container">
-            <div class="column-left">
+         <div class="flex-container">
+           <div class="box">
                <section>
                   <header>
                      <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-user fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Author Contact Information</h2>
@@ -42,7 +47,7 @@
                      <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-male fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>About Me</h2>
                      <div class="container-work-experience">
                         <div class="about-me">
-                           <p>
+                           <p class="google-font-paragraph">
                               Hi, my name is Jose A. Abreu-Delgado and I am currently a software engineer in The Boeing Company located in Renton, WA.<br>
                               Originaly, I was born in 1992 in San Juan, Puerto Rico and moved to Seattle, WA in August 7 of 2017.<br>
                               I love to go hiking, roadtrip around the country, travel & play video games.<br>
@@ -58,7 +63,8 @@
                   </article>
                </section>
             </div>
-            <div class="column-center">
+
+            <div class="box">
                <section>
                   <header>
                      <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
@@ -120,7 +126,8 @@
                   </footer>
                </section>
             </div>
-            <div class="column-right">
+
+            <div class="box">
                <section>
                   <header>
                      <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-asterisk fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i> Skills</h2>
@@ -182,11 +189,16 @@
                   </article>
                </section>
             </div>
+
+
+
          </div>
+
+
          <div class="footer">
             <p>Find me on social media.</p>
             <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fas fa-camera"></i> <!-- this icon's 1) style prefix == fas and 2) icon name == camera -->
             <i class="fa fa-snapchat w3-hover-opacity"></i>
             <i class="fa fa-pinterest-p w3-hover-opacity"></i>
             <i class="fa fa-twitter w3-hover-opacity"></i>
