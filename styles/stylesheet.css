@@ -180,4 +180,59 @@ input[type=submit]:hover {
 .fa-camera{
   color: magenta;
 }
+.fa-user{
+	color: teal;
+	margin: 16px;
+}
+.fa-suitcase{
+	color: teal;
+		margin: 16px;
+}
+.fa-home{
+	color: teal;
+		margin: 16px;
+}
+.fa-envelope{
+	color: teal;
+		margin: 16px;
+}
+.fa-phone{
+	color: teal;
+		margin: 16px;
+}
+
+.fa-male{
+
+	margin: 16px;
+	color: teal;
+}
+.fa-briefcase {
+	margin: 16px;
+	color: teal;
+}
+.fa-calendar-alt{
+	margin-right: 16px;
+	color: teal;
+}
+.fa-certificate{
+	margin: 16px;
+	color: teal;
+}
+.fa-asterisk {
+	margin: 16px;
+	color: teal;
+}
+.fa-code{
+	color: teal;
+	margin: 16px;
+}
+.fa-globe{
+	color: teal;
+	margin: 16px;
+}
+.fa-comment-dots{
+	color: teal;
+	margin: 16px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Amiri&family=Raleway:wght@100&display=swap');
