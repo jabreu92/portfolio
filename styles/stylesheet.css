@@ -50,6 +50,23 @@ nav li a:active {
 	color: blue;
 }
 
+p:nth-child(even) {
+	background: yellow;
+}
+
+p:nth-child(odd) {
+	background: lightgrey;
+	font-size: 19px;
+}
+
+ul li:nth-child(3n) {
+	background: #fafafa;
+}
+
+h2:nth-child(even) {
+	font-size: 30px;
+}
+
 .flex-container {
 	height: 100%;
 	display: flex;
